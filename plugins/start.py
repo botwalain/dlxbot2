@@ -88,7 +88,7 @@ async def start_command(client: Client, message: Message):
     
     [
                     InlineKeyboardButton("⚡️ ᴀʙᴏᴜᴛ", callback_data = "about"),
-                    InlineKeyboardButton('🍁 Submit Stuffs Here', url='https://t.me/delight_admin_bot')
+                    InlineKeyboardButton('🍁 Updates', url='https://t.me/DelightRedirect')
         
     ]
             ]
