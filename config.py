@@ -13,13 +13,13 @@ from logging.handlers import RotatingFileHandler
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "24835200"))
+APP_ID = int(os.environ.get("APP_ID", "9698652"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "292a0429d414275f4568b0a759f6ab98")
+API_HASH = os.environ.get("API_HASH", "b354710ab18b84e00b65c62ba7a9c043")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002470440400"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002425471937"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "2125687935"))
@@ -42,7 +42,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {first}\n\n ɪ ᴀᴍ ᴍᴜʟᴛɪ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ , ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ</b>")
 try:
     ADMINS=[2125687935]
-    for x in (os.environ.get("ADMINS", "1936055439").split()):
+    for x in (os.environ.get("ADMINS", "1936055439 6171331340 1990180816").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
